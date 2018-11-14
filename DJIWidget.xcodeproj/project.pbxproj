@@ -1078,7 +1078,7 @@
 					"$(PROJECT_DIR)/DJIWidget/ThirdLib",
 					"$(PROJECT_DIR)/DJIWidget/ffmpeg/lib",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.DJIWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1122,7 +1122,7 @@
 					"$(PROJECT_DIR)/DJIWidget/ThirdLib",
 					"$(PROJECT_DIR)/DJIWidget/ffmpeg/lib",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.DJIWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1221,7 +1221,7 @@
 					"$(PROJECT_DIR)/DJIWidget/ThirdLib",
 					"$(PROJECT_DIR)/DJIWidget/ffmpeg/lib",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.DJIWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
