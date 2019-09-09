@@ -277,12 +277,22 @@ static DJIVideoPreviewer* previewer = nil;
     if(previewer == nil) {
         @synchronized (self) {
             if (previewer == nil) {
-                previewer = [[self alloc] init];
+                previewer = [[self alloc_instance] init];
                 previewer.isDefaultPreviewer = YES;
             }
         }
     }
     return previewer;
+}
+
++ (instancetype)alloc_instance
+{
+    return [super alloc];
+}
+
++ (instancetype)alloc
+{
+    return [DJIVideoPreviewer instance];
 }
 
 // SDK
