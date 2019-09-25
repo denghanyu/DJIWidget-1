@@ -316,7 +316,6 @@
 		2E54A79F1F4C31CC00916B4D /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		2E54A7A31F4C364800916B4D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2E54A7A91F4C537300916B4D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		2EBAA9C81FB064BE00E26B31 /* DJIWidgetPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIWidgetPrefix.pch; sourceTree = "<group>"; };
 		9C7E332D2111D7D700A2D60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE818BDC20F8CD5800DE4B4D /* DJIMavic2ProCameraImageCalibrateFilterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJIMavic2ProCameraImageCalibrateFilterDataSource.m; sourceTree = "<group>"; };
 		BE818BDD20F8CD5900DE4B4D /* DJIMavic2ZoomCameraImageCalibrateFilterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJIMavic2ZoomCameraImageCalibrateFilterDataSource.m; sourceTree = "<group>"; };
@@ -514,7 +513,6 @@
 			children = (
 				BEBC14241FE14AA1005ED3F9 /* DJISymbols.h */,
 				2E54A2D01F4A904000916B4D /* DJIWidget.h */,
-				2EBAA9C81FB064BE00E26B31 /* DJIWidgetPrefix.pch */,
 				144D3F351FBEDDEB0027EF5D /* VideoService */,
 				2E54A2DF1F4A906C00916B4D /* VideoPreviewer */,
 				144D400E1FC3CF3A0027EF5D /* RTMPProcessor */,
@@ -1218,7 +1216,7 @@
 					"$(PROJECT_DIR)/FFmpeg",
 				);
 				GCC_INPUT_FILETYPE = automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/DJIWidgetPrefix.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/FFmpeg/FFmpeg.framework/Headers\"",
@@ -1264,7 +1262,7 @@
 					"$(PROJECT_DIR)/FFmpeg",
 				);
 				GCC_INPUT_FILETYPE = automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/DJIWidgetPrefix.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/FFmpeg/FFmpeg.framework/Headers\"",
@@ -1366,7 +1364,7 @@
 					"$(PROJECT_DIR)/FFmpeg",
 				);
 				GCC_INPUT_FILETYPE = automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/DJIWidgetPrefix.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/FFmpeg/FFmpeg.framework/Headers\"",
